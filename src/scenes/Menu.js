@@ -8,6 +8,18 @@ class Menu extends Phaser.Scene {
         this.load.audio('sfx-select', './assets/sound/sfx-select.wav')
         this.load.audio('sfx-explosion', './assets/sound/sfx-explosion.wav')
         this.load.audio('sfx-shot', './assets/sound/sfx-shot.wav')
+        // load new audio
+        this.load.audio('explosion01', './assets/sound/hq-explosion-6288.mp3')
+        //Sound Effect from <a href="https://pixabay.com/sound-effects/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=6288">Pixabay</a>
+        this.load.audio('explosion02', './assets/sound/explosion-6801.mp3')
+        //Sound Effect from <a href="https://pixabay.com/sound-effects/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=6801">Pixabay</a>
+        this.load.audio('explosion03', './assets/sound/heavy-cineamtic-hit-166888.mp3')
+        //Sound Effect by <a href="https://pixabay.com/users/lordsonny-38439655/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=166888">LordSonny</a> from <a href="https://pixabay.com/sound-effects//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=166888">Pixabay</a>
+        this.load.audio('explosion04', './assets/sound/explosion-6055.mp3')
+        //Sound Effect from <a href="https://pixabay.com/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=6055">Pixabay</a>
+        
+        
+
     }
 
     create() {
